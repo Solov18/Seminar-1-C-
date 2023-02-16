@@ -10,8 +10,9 @@ int.TryParse(Console.ReadLine()!, out N);
 int i = 1;
 while (i <= N)
 {
-    Console.Write($"{i + 1},");
-    i = i + 2;
+    if (i % 2 ==0)
+    Console.Write($"{i},");
+    i = i + 1;
 } 
 
 
